@@ -129,6 +129,15 @@ body {
 	font-weight: 500;
 }
 
+.copyright-text a {
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+.copyright-text a:hover {
+    color: #1a1a1a;
+}
+
 /* footer style: end */
 
 
