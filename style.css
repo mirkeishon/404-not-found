@@ -1,1 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
+html {
+    min-height: 100vh;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+/* header style start */
+
+.not-found-page-header {
+	height: 10vh;
+	padding: 35px 77px;
+}
+
+.not-found-page-text {
+	font-family: 'inconsolata', monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;	
+}
+
+/* header style end */
+
+/* content style: start */
+
+
+.main-container {
+	height: 80vh;
+	position: relative;
+}
+
+.not-found-content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.img {
+	max-width: 450px;
+	width: 50%;
+	text-align: center;
+}
+
+.img img {
+	width: 100%;
+	height: 450px;
+}
+
+.warning {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 588px;
+	width: 50%;
+	height: 450px;
+}
+
+.warning-title {
+	font-size: 64px;
+	color: #333333;
+	width: 100%;
+}
+
+.warning-content {
+	font-size: 24px;
+	font-weight: 400;
+	width: 382px;
+	color: #4f4f4f;
+	margin: 1em 0;
+}
+
+.back-to-homepage {
+	padding: 1em 0;
+	background: #333333;
+	width: 216px;
+	color: white;
+    border: 1px solid;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.back-to-homepage:hover {
+    background: white;
+    border-color: #333333;
+    color: #333333;
+}
+
+/* content style: end */
+
+/* footer style: start */
+
+.not-found-page-footer {
+	position: relative;
+	height: 10vh;
+}
+
+.copyright-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: max-content;
+	height: max-content;
+	color: #BDBDBD;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* footer style: end */
+
+
+@media(max-width: 797px){
+
+/* header style: start*/
+
+	.not-found-page-header {
+		height: min-content;
+		padding: 20px 25px;
+	}
+
+/* header style: end */
+
+/* content style: start */
+
+	.main-container {
+		height: min-content;
+	}
+
+	.not-found-content-container {
+		position: relative;
+	}
+
+	.img, .warning {
+		height: 350px;
+		width: 95%;
+	}
+	.img {
+		margin: 50px 0 0;
+	}
+
+	.img img {
+		height: 80%;
+		width: 80%;
+	}
+
+	.warning {
+		margin-bottom: 70px;
+	}
+
+	.warning-title{
+		width: 100%;
+		font-size: 48px;
+	}
+
+	.warning-content{
+		width: 100%;
+		font-size: 18px;
+	}
+
+/* content style: end */
+}
