@@ -37,8 +37,6 @@
 
 ![screenshot](https://user-images.githubusercontent.com/94877748/144146498-12ff2598-2458-4055-8c4e-1bcfa996cb03.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - You can find the demo in this url
 
 ## Features
